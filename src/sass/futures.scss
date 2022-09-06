@@ -1,16 +1,15 @@
 .futures {
     background-color: #95E1D3;
-    width: 100%;
 }
 .futures__container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.futures__items {
+.futures__content {
     display: flex;
 }
-.futures-item {
+.futures__content-item {
     flex: 0 1 calc(100% / 5);
     padding: 64px 0;
     color: #fff;
@@ -38,7 +37,7 @@
     .futures__container {
         padding: 0 20px;
     }
-    .futures-item {
+    .futures__content-item {
         padding: 35px 0 34px;
     }
     .futures-item__number {
@@ -52,10 +51,10 @@
     }
 }
 @media (max-width: 768px) {
-    .futures__items {
+    .futures__content {
         flex-wrap: wrap;
     }
-    .futures-item {
+    .futures__content-item {
         margin:0 auto;
         flex: 0 0 calc(100% / 2);
         max-width: 234px;
